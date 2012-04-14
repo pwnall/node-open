@@ -1,0 +1,19 @@
+{
+  "author": "J. Jordan <jordan@styosis.com>",
+  "name": "open",
+  "description": "open a file or uri with the users preferred application",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "main": "lib/open.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
