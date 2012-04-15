@@ -1,5 +1,4 @@
 var path = require('path');
-var expect = require('expect.js');
 var open = require('../');
 
 describe('open', function() {
