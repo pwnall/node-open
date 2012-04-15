@@ -11,7 +11,9 @@
     "test": "mocha"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  },
   "optionalDependencies": {},
   "engines": {
     "node": "*"

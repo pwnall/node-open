@@ -1,0 +1,3 @@
+open.js test asset
+
+If this isn't vim, please reconfigure your system.
