@@ -1,10 +1,11 @@
 {
-  "author": "J. Jordan <jordan@styosis.com>",
+  "author": "James Jordan <jordan@styosis.com>",
   "name": "open",
   "description": "open a file or uri with the users preferred application",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
-    "url": ""
+    "type": "git",
+    "url": "git://github.com/fixedset/open.js.git"
   },
   "main": "lib/open.js",
   "scripts": {
@@ -16,6 +17,6 @@
   },
   "optionalDependencies": {},
   "engines": {
-    "node": "*"
+    "node": ">= 0.4.0"
   }
 }
