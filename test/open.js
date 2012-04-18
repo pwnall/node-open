@@ -25,6 +25,10 @@ describe('open', function() {
   it('should open files with spaces', function(done) {
     open(pathTo('with space.html'), done);
   });
+  
+  it('should open files with quotes', function(done) {
+    open(pathTo('with"quote.html'), done);
+  });
 
 });
 
