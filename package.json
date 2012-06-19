@@ -8,6 +8,13 @@
     "url": "git://github.com/jjrdn/node-open.git"
   },
   "main": "lib/open.js",
+  "keywords": [
+    "start",
+    "open",
+    "browser",
+    "editor",
+    "default"
+  ],
   "scripts": {
     "test": "mocha"
   },
