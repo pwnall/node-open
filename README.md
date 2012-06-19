@@ -17,8 +17,7 @@ open('http://www.google.com');
 
 - on `win32` uses `start`
 - on `darwin` uses `open`
-- otherwise uses the `xdg-open` script from [freedesktop.org](http://portland.freedesktop.org/xdg-utils-1.0/xdg-open.html
-)
+- otherwise uses the `xdg-open` script from [freedesktop.org](http://portland.freedesktop.org/xdg-utils-1.0/xdg-open.html)
 
 # warning
 
