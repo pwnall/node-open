@@ -1,4 +1,4 @@
-# open.js
+# open
 
 open a file or url in the default associated application
 
