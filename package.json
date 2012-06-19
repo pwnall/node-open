@@ -1,12 +1,14 @@
 {
   "author": "J Jordan <jjrdn@styosis.com>",
   "name": "open",
-  "description": "open a file or uri with the users preferred application",
+  "description": "open a file or url in the user's preferred application",
   "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/jjrdn/node-open.git"
   },
+  "homepage": "https://github.com/jjrdn/node-open",
+  "bugs": "https://github.com/jjrdn/node-open/issues",
   "main": "lib/open.js",
   "keywords": [
     "start",
