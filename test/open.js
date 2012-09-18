@@ -23,7 +23,7 @@ describe('open', function () {
   });
 
   it('should open https uris in default browser', function (done) {
-    open('https://github.com/jjrdn/node-open.js', done);
+    open('https://github.com/jjrdn/node-open', done);
   });
 
   //it('should open image file in default image viewer', function (done) {
