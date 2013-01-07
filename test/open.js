@@ -45,5 +45,8 @@ describe('open', function () {
     open(pathTo('with"quote.html'), done);
   });
 
+  it('should open files in the specified application', function (done) {
+    open(pathTo('with space.html'), 'firefox', done);
+  });
 });
 
