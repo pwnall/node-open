@@ -1,31 +1,31 @@
 {
-  "author": "J Jordan <jjrdn@styosis.com>",
   "name": "open",
-  "description": "open a file or url in the user's preferred application",
   "version": "0.0.3",
+  "description": "open a file or url in the user's preferred application",
+  "keywords": ["start", "open", "browser", "editor", "default"],
+  "homepage": "https://github.com/jjrdn/node-open",
+  "author": "J Jordan <jjrdn@styosis.com>",
+  "license": "MIT",
+  "contributors": [
+    "Victor Costan <victor@costan.us> (http://www.costan.us)"
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jjrdn/node-open.git"
+    "url": "https://github.com/jjrdn/node-open.git"
   },
-  "homepage": "https://github.com/jjrdn/node-open",
-  "bugs": "https://github.com/jjrdn/node-open/issues",
-  "main": "lib/open.js",
-  "keywords": [
-    "start",
-    "open",
-    "browser",
-    "editor",
-    "default"
-  ],
-  "scripts": {
-    "test": "mocha"
+  "bugs": {
+    "url": "https://github.com/jjrdn/node-open/issues"
   },
+  "engines": {
+    "node": ">= 0.6.0"
+  }
   "dependencies": {},
   "devDependencies": {
     "mocha": "*"
   },
   "optionalDependencies": {},
-  "engines": {
-    "node": ">= 0.6.0"
-  }
+  "main": "lib/open.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
 }
