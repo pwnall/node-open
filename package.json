@@ -18,7 +18,7 @@
   },
   "engines": {
     "node": ">= 0.6.0"
-  }
+  },
   "dependencies": {},
   "devDependencies": {
     "mocha": "*"
@@ -27,5 +27,5 @@
   "main": "lib/open.js",
   "scripts": {
     "test": "node_modules/mocha/bin/mocha"
-  },
+  }
 }
