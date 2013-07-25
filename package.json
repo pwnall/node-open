@@ -11,10 +11,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jjrdn/node-open.git"
+    "url": "https://github.com/pwnall/node-open.git"
   },
   "bugs": {
-    "url": "https://github.com/jjrdn/node-open/issues"
+    "url": "https://github.com/pwnall/node-open/issues"
   },
   "engines": {
     "node": ">= 0.6.0"
