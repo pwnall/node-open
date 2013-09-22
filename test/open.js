@@ -9,6 +9,9 @@ var open = require('../');
 // does not return an error, and this is a good proxy for success for
 // much less effort.
 //
+// this test should be run with both 'npm test' and 'sudo npm test' to make
+// sure the application is opened in user context even during sudo
+//
 // the xdg-open script behaves differently than start and open in that
 // it does not return after opening the process, it waits until the child
 // process exits.  Because of this, the callback parameter is not documented
